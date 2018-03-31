@@ -17,7 +17,7 @@ logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
 # création d'un handler qui va rediriger une écriture du log vers
 # un fichier en mode 'append', avec 1 backup et une taille max de 1Mo
-file_handler = RotatingFileHandler('activity.log', 'a', 1000000, 1)
+file_handler = RotatingFileHandler(f"{os.path.dirname(__file__)}/logs/sl_log-{datetime.now().strftime('%Y-%m-%d')}.log", 'a', 1000000, 1)
 # on lui met le niveau sur DEBUG, on lui dit qu'il doit utiliser le formateur
 # créé précédement et on ajoute ce handler au logger
 file_handler.setLevel(logging.DEBUG)
@@ -56,42 +56,39 @@ while curr_page <= total_page_nb:
     try:    
         # print(soup.prettify())
         lists = soup.select('div.c-pa-list')
-        i = 0
         for a in lists:
             anno = {}  
-            print('====================================================')
+            # print('====================================================')
             # print(t['title'])
-            i += 1
-            anno['index'] = i
             anno['id'] = a['id']
-            print(anno['id'])
+            # print(anno['id'])
             anno['title'] = a.select('a.c-pa-link')[0]['title'].strip()
-            print(anno['title'])
+            # print(anno['title'])
             anno['link'] = a.select('a.c-pa-link')[0]['href']
-            print(anno['link'])
+            # print(anno['link'])
             anno['criterion'] = f"{a.select('div.c-pa-criterion em')[0].text} / {a.select('div.c-pa-criterion em')[1].text} / {a.select('div.c-pa-criterion em')[2].text}"
-            print(anno['criterion'])
+            # print(anno['criterion'])
             anno['price'] = a.find('span', {'class':'c-pa-cprice'}).text.replace('\n', '').replace(' ', '').replace('\xa0', ' ')
-            print(anno['price'])
+            # print(anno['price'])
             anno['city'] = a.select('div.c-pa-city')[0].text
-            print(anno['city'])
+            # print(anno['city'])
             if a.select('div.c-pa-agency a') != []:
                 anno['agency'] = a.select('div.c-pa-agency a')[-1]['href']
             else:
-                anno['agency'] = 'null'
+                anno['agency'] = None
             
-            print(anno['agency'])
+            # print(anno['agency'])
             if a.select('div.c-pa-actions a[tabindex=0]') != []:
                 anno['tel'] = a.select('div.c-pa-actions a[tabindex=0]')[0]['data-tooltip-focus']
             else:
-                anno['tel'] = 'null'
+                anno['tel'] = None
             
-            print(anno['tel'])
+            # print(anno['tel'])
             # print(anno)
-            print('====================================================')
+            # print('====================================================')
             annonces[anno['id']] = anno
         
-        print(annonces)
+        # print(annonces)
         # save result to JSON
         json = json.dumps(annonces)
         f = open(f"{os.path.dirname(__file__)}/records/sl-{datetime.now().strftime('%Y-%m-%d')}.json","a+")
@@ -106,7 +103,8 @@ while curr_page <= total_page_nb:
         # find next page
         curr_page += 1
         url = f"{url_base}{curr_page}"
-        driver.get(url)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        if curr_page <= total_page_nb:
+            driver.get(url)
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 driver.close()

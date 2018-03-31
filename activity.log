@@ -1,0 +1,221 @@
+2018-03-30 11:39:44,597 :: DEBUG :: POST http://127.0.0.1:54466/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 11:39:46,357 :: DEBUG :: Finished Request
+2018-03-30 11:39:46,365 :: DEBUG :: POST http://127.0.0.1:54466/session/841bdebe424c94e80bd9292ee3b337e1/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "841bdebe424c94e80bd9292ee3b337e1"}
+2018-03-30 11:39:59,043 :: DEBUG :: Finished Request
+2018-03-30 11:39:59,049 :: DEBUG :: GET http://127.0.0.1:54466/session/841bdebe424c94e80bd9292ee3b337e1/source {"sessionId": "841bdebe424c94e80bd9292ee3b337e1"}
+2018-03-30 11:39:59,712 :: DEBUG :: Finished Request
+2018-03-30 11:42:39,142 :: DEBUG :: POST http://127.0.0.1:55214/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 11:42:42,119 :: DEBUG :: Finished Request
+2018-03-30 11:42:42,131 :: DEBUG :: POST http://127.0.0.1:55214/session/844814fbe488b02c8b33837d308cb16c/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "844814fbe488b02c8b33837d308cb16c"}
+2018-03-30 11:42:51,235 :: DEBUG :: Finished Request
+2018-03-30 11:42:51,241 :: DEBUG :: GET http://127.0.0.1:55214/session/844814fbe488b02c8b33837d308cb16c/source {"sessionId": "844814fbe488b02c8b33837d308cb16c"}
+2018-03-30 11:42:52,728 :: DEBUG :: Finished Request
+2018-03-30 11:43:24,134 :: DEBUG :: POST http://127.0.0.1:55482/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 11:43:26,030 :: DEBUG :: Finished Request
+2018-03-30 11:43:26,041 :: DEBUG :: POST http://127.0.0.1:55482/session/5aef37c49fc57dbc670154fb1cdd61cd/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "5aef37c49fc57dbc670154fb1cdd61cd"}
+2018-03-30 11:43:43,786 :: DEBUG :: Finished Request
+2018-03-30 11:43:43,793 :: DEBUG :: GET http://127.0.0.1:55482/session/5aef37c49fc57dbc670154fb1cdd61cd/source {"sessionId": "5aef37c49fc57dbc670154fb1cdd61cd"}
+2018-03-30 11:43:45,696 :: DEBUG :: Finished Request
+2018-03-30 11:46:49,706 :: DEBUG :: POST http://127.0.0.1:56321/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 11:46:51,201 :: DEBUG :: Finished Request
+2018-03-30 11:46:51,209 :: DEBUG :: POST http://127.0.0.1:56321/session/4d940515137d9cd358ab2f9d0ebfcb27/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "4d940515137d9cd358ab2f9d0ebfcb27"}
+2018-03-30 11:47:03,070 :: DEBUG :: Finished Request
+2018-03-30 11:47:03,076 :: DEBUG :: GET http://127.0.0.1:56321/session/4d940515137d9cd358ab2f9d0ebfcb27/source {"sessionId": "4d940515137d9cd358ab2f9d0ebfcb27"}
+2018-03-30 11:47:49,099 :: DEBUG :: POST http://127.0.0.1:56619/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 11:47:50,711 :: DEBUG :: Finished Request
+2018-03-30 11:47:58,017 :: DEBUG :: POST http://127.0.0.1:56619/session/a7ef0f60743338b4fee0125418bd6a38/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "a7ef0f60743338b4fee0125418bd6a38"}
+2018-03-30 11:48:05,361 :: DEBUG :: Finished Request
+2018-03-30 11:48:11,022 :: DEBUG :: GET http://127.0.0.1:56619/session/a7ef0f60743338b4fee0125418bd6a38/source {"sessionId": "a7ef0f60743338b4fee0125418bd6a38"}
+2018-03-30 11:48:11,349 :: DEBUG :: Finished Request
+2018-03-30 11:48:53,993 :: DEBUG :: DELETE http://127.0.0.1:56619/session/a7ef0f60743338b4fee0125418bd6a38/window {"sessionId": "a7ef0f60743338b4fee0125418bd6a38"}
+2018-03-30 11:48:54,454 :: DEBUG :: Finished Request
+2018-03-30 13:41:37,568 :: DEBUG :: POST http://127.0.0.1:60638/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 13:41:38,704 :: DEBUG :: Finished Request
+2018-03-30 13:41:38,709 :: DEBUG :: POST http://127.0.0.1:60638/session/757b7cc51e172195285be1d1fa0e7f4a/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "757b7cc51e172195285be1d1fa0e7f4a"}
+2018-03-30 13:41:43,004 :: DEBUG :: Finished Request
+2018-03-30 13:41:43,005 :: DEBUG :: GET http://127.0.0.1:60638/session/757b7cc51e172195285be1d1fa0e7f4a/source {"sessionId": "757b7cc51e172195285be1d1fa0e7f4a"}
+2018-03-30 13:41:43,347 :: DEBUG :: Finished Request
+2018-03-30 13:41:46,358 :: ERROR :: Error in getting number of annonces
+int() argument must be a string, a bytes-like object or a number, not 'list'
+2018-03-30 13:42:22,824 :: DEBUG :: POST http://127.0.0.1:60901/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 13:42:23,681 :: DEBUG :: Finished Request
+2018-03-30 13:42:23,685 :: DEBUG :: POST http://127.0.0.1:60901/session/04f7a62c6616e7f2e17d08c51553c28f/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "04f7a62c6616e7f2e17d08c51553c28f"}
+2018-03-30 13:42:27,908 :: DEBUG :: Finished Request
+2018-03-30 13:42:27,910 :: DEBUG :: GET http://127.0.0.1:60901/session/04f7a62c6616e7f2e17d08c51553c28f/source {"sessionId": "04f7a62c6616e7f2e17d08c51553c28f"}
+2018-03-30 13:42:28,113 :: DEBUG :: Finished Request
+2018-03-30 13:42:31,339 :: ERROR :: Error in getting number of annonces
+invalid literal for int() with base 10: '624 annonces'
+2018-03-30 13:43:33,109 :: DEBUG :: POST http://127.0.0.1:61225/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 13:43:33,857 :: DEBUG :: Finished Request
+2018-03-30 13:43:33,860 :: DEBUG :: POST http://127.0.0.1:61225/session/f20d391b2fa315fa442bcef61ce4be6e/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "f20d391b2fa315fa442bcef61ce4be6e"}
+2018-03-30 13:43:41,956 :: DEBUG :: Finished Request
+2018-03-30 13:43:41,958 :: DEBUG :: GET http://127.0.0.1:61225/session/f20d391b2fa315fa442bcef61ce4be6e/source {"sessionId": "f20d391b2fa315fa442bcef61ce4be6e"}
+2018-03-30 13:43:42,182 :: DEBUG :: Finished Request
+2018-03-30 13:43:45,625 :: DEBUG :: We got 624 annonces
+2018-03-30 13:55:48,632 :: DEBUG :: POST http://127.0.0.1:64423/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 13:55:49,382 :: DEBUG :: Finished Request
+2018-03-30 13:55:49,386 :: DEBUG :: POST http://127.0.0.1:64423/session/24578d4fe7c59771ac6f1fc8aeea2602/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "24578d4fe7c59771ac6f1fc8aeea2602"}
+2018-03-30 13:55:55,611 :: DEBUG :: Finished Request
+2018-03-30 13:55:55,612 :: DEBUG :: GET http://127.0.0.1:64423/session/24578d4fe7c59771ac6f1fc8aeea2602/source {"sessionId": "24578d4fe7c59771ac6f1fc8aeea2602"}
+2018-03-30 13:55:55,773 :: DEBUG :: Finished Request
+2018-03-30 13:55:59,046 :: DEBUG :: We got 624 annonces
+2018-03-30 14:02:14,696 :: DEBUG :: POST http://127.0.0.1:49600/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 14:02:15,552 :: DEBUG :: Finished Request
+2018-03-30 14:02:15,556 :: DEBUG :: POST http://127.0.0.1:49600/session/c19a5550660380d6e43fdade146273a8/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "c19a5550660380d6e43fdade146273a8"}
+2018-03-30 14:02:26,755 :: DEBUG :: Finished Request
+2018-03-30 14:02:26,758 :: DEBUG :: GET http://127.0.0.1:49600/session/c19a5550660380d6e43fdade146273a8/source {"sessionId": "c19a5550660380d6e43fdade146273a8"}
+2018-03-30 14:02:26,904 :: DEBUG :: Finished Request
+2018-03-30 14:02:29,868 :: DEBUG :: DELETE http://127.0.0.1:49600/session/c19a5550660380d6e43fdade146273a8/window {"sessionId": "c19a5550660380d6e43fdade146273a8"}
+2018-03-30 14:02:29,979 :: DEBUG :: Finished Request
+2018-03-30 14:02:30,166 :: DEBUG :: We got 624 annonces on 32 pages
+2018-03-30 14:11:27,951 :: DEBUG :: POST http://127.0.0.1:51701/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-03-30 14:11:28,618 :: DEBUG :: Finished Request
+2018-03-30 14:11:28,622 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:32,397 :: DEBUG :: Finished Request
+2018-03-30 14:11:32,399 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:32,594 :: DEBUG :: Finished Request
+2018-03-30 14:11:35,710 :: DEBUG :: We got 625 annonces on 32 pages
+2018-03-30 14:11:55,625 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:55,632 :: DEBUG :: Finished Request
+2018-03-30 14:11:55,633 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/window_handle {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:55,635 :: DEBUG :: Finished Request
+2018-03-30 14:11:55,636 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/log/types {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:55,638 :: DEBUG :: Finished Request
+2018-03-30 14:11:55,639 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/orientation {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:55,641 :: DEBUG :: Finished Request
+2018-03-30 14:11:55,642 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:55,691 :: DEBUG :: Finished Request
+2018-03-30 14:11:55,692 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/title {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:55,711 :: DEBUG :: Finished Request
+2018-03-30 14:11:55,712 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/window_handles {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:11:55,713 :: DEBUG :: Finished Request
+2018-03-30 14:12:02,334 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:04,637 :: DEBUG :: Finished Request
+2018-03-30 14:12:04,639 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:04,826 :: DEBUG :: Finished Request
+2018-03-30 14:12:20,145 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:22,093 :: DEBUG :: Finished Request
+2018-03-30 14:12:22,095 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:22,206 :: DEBUG :: Finished Request
+2018-03-30 14:12:35,018 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:37,166 :: DEBUG :: Finished Request
+2018-03-30 14:12:37,169 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:37,340 :: DEBUG :: Finished Request
+2018-03-30 14:12:39,863 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:41,740 :: DEBUG :: Finished Request
+2018-03-30 14:12:41,742 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:41,883 :: DEBUG :: Finished Request
+2018-03-30 14:12:45,377 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:47,144 :: DEBUG :: Finished Request
+2018-03-30 14:12:47,148 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:47,290 :: DEBUG :: Finished Request
+2018-03-30 14:12:50,794 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:52,752 :: DEBUG :: Finished Request
+2018-03-30 14:12:52,754 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:52,892 :: DEBUG :: Finished Request
+2018-03-30 14:12:56,379 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:58,783 :: DEBUG :: Finished Request
+2018-03-30 14:12:58,786 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:12:58,906 :: DEBUG :: Finished Request
+2018-03-30 14:13:02,638 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:04,749 :: DEBUG :: Finished Request
+2018-03-30 14:13:04,751 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:04,907 :: DEBUG :: Finished Request
+2018-03-30 14:13:08,371 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:10,257 :: DEBUG :: Finished Request
+2018-03-30 14:13:10,259 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:10,355 :: DEBUG :: Finished Request
+2018-03-30 14:13:13,976 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:15,991 :: DEBUG :: Finished Request
+2018-03-30 14:13:15,994 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:16,086 :: DEBUG :: Finished Request
+2018-03-30 14:13:19,548 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:21,312 :: DEBUG :: Finished Request
+2018-03-30 14:13:21,314 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:21,377 :: DEBUG :: Finished Request
+2018-03-30 14:13:24,856 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:26,590 :: DEBUG :: Finished Request
+2018-03-30 14:13:26,592 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:26,757 :: DEBUG :: Finished Request
+2018-03-30 14:13:30,210 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:31,958 :: DEBUG :: Finished Request
+2018-03-30 14:13:31,960 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:32,095 :: DEBUG :: Finished Request
+2018-03-30 14:13:35,561 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:37,374 :: DEBUG :: Finished Request
+2018-03-30 14:13:37,376 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:37,549 :: DEBUG :: Finished Request
+2018-03-30 14:13:39,970 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:41,855 :: DEBUG :: Finished Request
+2018-03-30 14:13:41,858 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:41,955 :: DEBUG :: Finished Request
+2018-03-30 14:13:44,200 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:45,895 :: DEBUG :: Finished Request
+2018-03-30 14:13:45,898 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:46,023 :: DEBUG :: Finished Request
+2018-03-30 14:13:49,401 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:51,113 :: DEBUG :: Finished Request
+2018-03-30 14:13:51,115 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:51,211 :: DEBUG :: Finished Request
+2018-03-30 14:13:53,778 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:55,884 :: DEBUG :: Finished Request
+2018-03-30 14:13:55,886 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:13:55,950 :: DEBUG :: Finished Request
+2018-03-30 14:13:58,209 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:00,751 :: DEBUG :: Finished Request
+2018-03-30 14:14:00,752 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:00,851 :: DEBUG :: Finished Request
+2018-03-30 14:14:03,102 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:05,282 :: DEBUG :: Finished Request
+2018-03-30 14:14:05,284 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:05,506 :: DEBUG :: Finished Request
+2018-03-30 14:14:07,808 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:09,262 :: DEBUG :: Finished Request
+2018-03-30 14:14:09,264 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:09,514 :: DEBUG :: Finished Request
+2018-03-30 14:14:12,808 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:14,526 :: DEBUG :: Finished Request
+2018-03-30 14:14:14,528 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:14,639 :: DEBUG :: Finished Request
+2018-03-30 14:14:18,031 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:19,829 :: DEBUG :: Finished Request
+2018-03-30 14:14:19,832 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:19,964 :: DEBUG :: Finished Request
+2018-03-30 14:14:23,409 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:25,141 :: DEBUG :: Finished Request
+2018-03-30 14:14:25,144 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:25,231 :: DEBUG :: Finished Request
+2018-03-30 14:14:28,815 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:31,710 :: DEBUG :: Finished Request
+2018-03-30 14:14:31,711 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:31,801 :: DEBUG :: Finished Request
+2018-03-30 14:14:35,294 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:37,176 :: DEBUG :: Finished Request
+2018-03-30 14:14:37,178 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:37,256 :: DEBUG :: Finished Request
+2018-03-30 14:14:40,705 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:42,470 :: DEBUG :: Finished Request
+2018-03-30 14:14:42,473 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:42,616 :: DEBUG :: Finished Request
+2018-03-30 14:14:45,369 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:48,609 :: DEBUG :: Finished Request
+2018-03-30 14:14:48,611 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:48,719 :: DEBUG :: Finished Request
+2018-03-30 14:14:52,336 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:54,680 :: DEBUG :: Finished Request
+2018-03-30 14:14:54,682 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:54,964 :: DEBUG :: Finished Request
+2018-03-30 14:14:58,247 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:14:59,957 :: DEBUG :: Finished Request
+2018-03-30 14:14:59,960 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:15:00,077 :: DEBUG :: Finished Request
+2018-03-30 14:15:02,692 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:15:03,998 :: DEBUG :: Finished Request
+2018-03-30 14:15:04,001 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:15:04,068 :: DEBUG :: Finished Request
+2018-03-30 14:15:06,274 :: DEBUG :: POST http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=33", "sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:15:07,371 :: DEBUG :: Finished Request
+2018-03-30 14:15:07,374 :: DEBUG :: GET http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/source {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:15:07,651 :: DEBUG :: Finished Request
+2018-03-30 14:15:08,929 :: DEBUG :: DELETE http://127.0.0.1:51701/session/d569e7190f72af3bae466e8dfea684cb/window {"sessionId": "d569e7190f72af3bae466e8dfea684cb"}
+2018-03-30 14:15:09,039 :: DEBUG :: Finished Request

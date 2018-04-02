@@ -1,0 +1,603 @@
+2018-04-01 14:26:15,412 :: DEBUG :: POST http://127.0.0.1:57446/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-01 14:26:16,362 :: DEBUG :: Finished Request
+2018-04-01 14:26:16,365 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:26:20,770 :: DEBUG :: Finished Request
+2018-04-01 14:26:20,773 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:26:20,909 :: DEBUG :: Finished Request
+2018-04-01 14:26:24,014 :: DEBUG :: We got 632 annonces on 32 pages
+2018-04-01 14:26:46,235 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:26:49,533 :: DEBUG :: Finished Request
+2018-04-01 14:26:49,536 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:26:49,738 :: DEBUG :: Finished Request
+2018-04-01 14:26:53,641 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+'str' object has no attribute 'dumps'
+2018-04-01 14:26:53,645 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:26:55,425 :: DEBUG :: Finished Request
+2018-04-01 14:26:55,428 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:26:55,615 :: DEBUG :: Finished Request
+2018-04-01 14:26:59,018 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3
+'str' object has no attribute 'dumps'
+2018-04-01 14:26:59,020 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:01,813 :: DEBUG :: Finished Request
+2018-04-01 14:27:01,815 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:01,949 :: DEBUG :: Finished Request
+2018-04-01 14:27:04,796 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:04,798 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:08,856 :: DEBUG :: Finished Request
+2018-04-01 14:27:08,859 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:09,011 :: DEBUG :: Finished Request
+2018-04-01 14:27:12,088 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:12,089 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:13,739 :: DEBUG :: Finished Request
+2018-04-01 14:27:13,742 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:13,899 :: DEBUG :: Finished Request
+2018-04-01 14:27:16,924 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:16,926 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:18,943 :: DEBUG :: Finished Request
+2018-04-01 14:27:18,946 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:19,160 :: DEBUG :: Finished Request
+2018-04-01 14:27:22,370 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:22,373 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:24,114 :: DEBUG :: Finished Request
+2018-04-01 14:27:24,118 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:24,267 :: DEBUG :: Finished Request
+2018-04-01 14:27:27,379 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:27,381 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:28,892 :: DEBUG :: Finished Request
+2018-04-01 14:27:28,896 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:29,009 :: DEBUG :: Finished Request
+2018-04-01 14:27:32,456 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:32,459 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:34,395 :: DEBUG :: Finished Request
+2018-04-01 14:27:34,399 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:34,554 :: DEBUG :: Finished Request
+2018-04-01 14:27:37,624 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:37,626 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:39,488 :: DEBUG :: Finished Request
+2018-04-01 14:27:39,490 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:39,601 :: DEBUG :: Finished Request
+2018-04-01 14:27:42,886 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:42,888 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:44,555 :: DEBUG :: Finished Request
+2018-04-01 14:27:44,557 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:44,670 :: DEBUG :: Finished Request
+2018-04-01 14:27:47,606 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:47,607 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:49,445 :: DEBUG :: Finished Request
+2018-04-01 14:27:49,448 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:49,576 :: DEBUG :: Finished Request
+2018-04-01 14:27:52,993 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:52,996 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:54,863 :: DEBUG :: Finished Request
+2018-04-01 14:27:54,865 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:27:55,027 :: DEBUG :: Finished Request
+2018-04-01 14:27:59,026 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14
+'str' object has no attribute 'dumps'
+2018-04-01 14:27:59,032 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:00,766 :: DEBUG :: Finished Request
+2018-04-01 14:28:00,769 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:00,890 :: DEBUG :: Finished Request
+2018-04-01 14:28:03,979 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:03,980 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:05,880 :: DEBUG :: Finished Request
+2018-04-01 14:28:05,882 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:05,991 :: DEBUG :: Finished Request
+2018-04-01 14:28:08,947 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:08,949 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:10,681 :: DEBUG :: Finished Request
+2018-04-01 14:28:10,683 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:10,815 :: DEBUG :: Finished Request
+2018-04-01 14:28:13,846 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:13,847 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:15,492 :: DEBUG :: Finished Request
+2018-04-01 14:28:15,494 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:15,652 :: DEBUG :: Finished Request
+2018-04-01 14:28:18,780 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:18,781 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:20,668 :: DEBUG :: Finished Request
+2018-04-01 14:28:20,672 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:20,792 :: DEBUG :: Finished Request
+2018-04-01 14:28:23,811 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:23,813 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:25,549 :: DEBUG :: Finished Request
+2018-04-01 14:28:25,552 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:25,670 :: DEBUG :: Finished Request
+2018-04-01 14:28:28,592 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:28,594 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:30,409 :: DEBUG :: Finished Request
+2018-04-01 14:28:30,412 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:30,536 :: DEBUG :: Finished Request
+2018-04-01 14:28:33,517 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:33,519 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:35,038 :: DEBUG :: Finished Request
+2018-04-01 14:28:35,039 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:35,181 :: DEBUG :: Finished Request
+2018-04-01 14:28:38,248 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:38,249 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:40,023 :: DEBUG :: Finished Request
+2018-04-01 14:28:40,025 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:40,153 :: DEBUG :: Finished Request
+2018-04-01 14:28:43,225 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:43,227 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:45,094 :: DEBUG :: Finished Request
+2018-04-01 14:28:45,097 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:45,233 :: DEBUG :: Finished Request
+2018-04-01 14:28:48,271 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:48,273 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:50,058 :: DEBUG :: Finished Request
+2018-04-01 14:28:50,061 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:50,197 :: DEBUG :: Finished Request
+2018-04-01 14:28:53,281 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:53,286 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:55,202 :: DEBUG :: Finished Request
+2018-04-01 14:28:55,204 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:28:55,330 :: DEBUG :: Finished Request
+2018-04-01 14:28:58,377 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26
+'str' object has no attribute 'dumps'
+2018-04-01 14:28:58,378 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:00,150 :: DEBUG :: Finished Request
+2018-04-01 14:29:00,152 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:00,321 :: DEBUG :: Finished Request
+2018-04-01 14:29:03,395 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27
+'str' object has no attribute 'dumps'
+2018-04-01 14:29:03,397 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:05,360 :: DEBUG :: Finished Request
+2018-04-01 14:29:05,362 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:05,479 :: DEBUG :: Finished Request
+2018-04-01 14:29:08,466 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28
+'str' object has no attribute 'dumps'
+2018-04-01 14:29:08,468 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:11,285 :: DEBUG :: Finished Request
+2018-04-01 14:29:11,288 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:11,470 :: DEBUG :: Finished Request
+2018-04-01 14:29:14,522 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29
+'str' object has no attribute 'dumps'
+2018-04-01 14:29:14,524 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:17,493 :: DEBUG :: Finished Request
+2018-04-01 14:29:17,496 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:17,615 :: DEBUG :: Finished Request
+2018-04-01 14:29:20,562 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30
+'str' object has no attribute 'dumps'
+2018-04-01 14:29:20,563 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:22,177 :: DEBUG :: Finished Request
+2018-04-01 14:29:22,179 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:22,328 :: DEBUG :: Finished Request
+2018-04-01 14:29:25,358 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31
+'str' object has no attribute 'dumps'
+2018-04-01 14:29:25,359 :: DEBUG :: POST http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32", "sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:26,803 :: DEBUG :: Finished Request
+2018-04-01 14:29:26,805 :: DEBUG :: GET http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/source {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:26,932 :: DEBUG :: Finished Request
+2018-04-01 14:29:29,139 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32
+'str' object has no attribute 'dumps'
+2018-04-01 14:29:29,140 :: DEBUG :: DELETE http://127.0.0.1:57446/session/ac2f82a921b33bd656ba7a087ebf2bc3/window {"sessionId": "ac2f82a921b33bd656ba7a087ebf2bc3"}
+2018-04-01 14:29:29,249 :: DEBUG :: Finished Request
+2018-04-01 14:34:09,943 :: DEBUG :: POST http://127.0.0.1:59782/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-01 14:34:10,578 :: DEBUG :: Finished Request
+2018-04-01 14:34:10,581 :: DEBUG :: POST http://127.0.0.1:59782/session/9b19e498fd07fad286f4f87853139fa2/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "9b19e498fd07fad286f4f87853139fa2"}
+2018-04-01 14:34:14,398 :: DEBUG :: Finished Request
+2018-04-01 14:34:14,401 :: DEBUG :: GET http://127.0.0.1:59782/session/9b19e498fd07fad286f4f87853139fa2/source {"sessionId": "9b19e498fd07fad286f4f87853139fa2"}
+2018-04-01 14:34:14,550 :: DEBUG :: Finished Request
+2018-04-01 14:34:17,762 :: DEBUG :: We got 632 annonces on 32 pages
+2018-04-01 14:46:38,340 :: DEBUG :: POST http://127.0.0.1:62561/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-01 14:46:39,073 :: DEBUG :: Finished Request
+2018-04-01 14:46:39,076 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:46:43,063 :: DEBUG :: Finished Request
+2018-04-01 14:46:43,065 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:46:43,241 :: DEBUG :: Finished Request
+2018-04-01 14:46:46,005 :: DEBUG :: We got 632 annonces on 32 pages
+2018-04-01 14:46:47,374 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:46:47,376 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:46:50,323 :: DEBUG :: Finished Request
+2018-04-01 14:46:50,328 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:46:50,552 :: DEBUG :: Finished Request
+2018-04-01 14:46:54,551 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:46:54,553 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:46:56,293 :: DEBUG :: Finished Request
+2018-04-01 14:46:56,298 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:46:56,461 :: DEBUG :: Finished Request
+2018-04-01 14:46:59,934 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:46:59,936 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:01,634 :: DEBUG :: Finished Request
+2018-04-01 14:47:01,636 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:01,761 :: DEBUG :: Finished Request
+2018-04-01 14:47:05,026 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:05,028 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:06,585 :: DEBUG :: Finished Request
+2018-04-01 14:47:06,588 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:06,748 :: DEBUG :: Finished Request
+2018-04-01 14:47:09,841 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:09,842 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:11,556 :: DEBUG :: Finished Request
+2018-04-01 14:47:11,559 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:11,723 :: DEBUG :: Finished Request
+2018-04-01 14:47:14,765 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:14,766 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:16,766 :: DEBUG :: Finished Request
+2018-04-01 14:47:16,768 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:16,906 :: DEBUG :: Finished Request
+2018-04-01 14:47:19,890 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:19,891 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:21,663 :: DEBUG :: Finished Request
+2018-04-01 14:47:21,665 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:21,822 :: DEBUG :: Finished Request
+2018-04-01 14:47:24,988 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:24,989 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:26,827 :: DEBUG :: Finished Request
+2018-04-01 14:47:26,829 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:26,961 :: DEBUG :: Finished Request
+2018-04-01 14:47:30,018 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:30,019 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:31,703 :: DEBUG :: Finished Request
+2018-04-01 14:47:31,707 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:31,878 :: DEBUG :: Finished Request
+2018-04-01 14:47:35,155 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:35,159 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:36,837 :: DEBUG :: Finished Request
+2018-04-01 14:47:36,840 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:36,994 :: DEBUG :: Finished Request
+2018-04-01 14:47:40,702 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:40,704 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:42,645 :: DEBUG :: Finished Request
+2018-04-01 14:47:42,648 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:42,756 :: DEBUG :: Finished Request
+2018-04-01 14:47:46,410 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:46,412 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:48,462 :: DEBUG :: Finished Request
+2018-04-01 14:47:48,465 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:48,598 :: DEBUG :: Finished Request
+2018-04-01 14:47:51,801 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:51,803 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:53,831 :: DEBUG :: Finished Request
+2018-04-01 14:47:53,833 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:53,943 :: DEBUG :: Finished Request
+2018-04-01 14:47:57,351 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:47:57,353 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:59,321 :: DEBUG :: Finished Request
+2018-04-01 14:47:59,323 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:47:59,464 :: DEBUG :: Finished Request
+2018-04-01 14:48:03,370 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:03,373 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:05,238 :: DEBUG :: Finished Request
+2018-04-01 14:48:05,241 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:05,360 :: DEBUG :: Finished Request
+2018-04-01 14:48:08,367 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:08,369 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:10,026 :: DEBUG :: Finished Request
+2018-04-01 14:48:10,029 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:10,175 :: DEBUG :: Finished Request
+2018-04-01 14:48:13,222 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:13,224 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:14,944 :: DEBUG :: Finished Request
+2018-04-01 14:48:14,946 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:15,287 :: DEBUG :: Finished Request
+2018-04-01 14:48:18,660 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:18,661 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:20,296 :: DEBUG :: Finished Request
+2018-04-01 14:48:20,299 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:20,451 :: DEBUG :: Finished Request
+2018-04-01 14:48:23,548 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:23,549 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:27,000 :: DEBUG :: Finished Request
+2018-04-01 14:48:27,002 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:27,124 :: DEBUG :: Finished Request
+2018-04-01 14:48:30,060 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:30,063 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:31,816 :: DEBUG :: Finished Request
+2018-04-01 14:48:31,819 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:31,973 :: DEBUG :: Finished Request
+2018-04-01 14:48:34,964 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:34,966 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:37,034 :: DEBUG :: Finished Request
+2018-04-01 14:48:37,037 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:37,162 :: DEBUG :: Finished Request
+2018-04-01 14:48:40,127 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:40,129 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:42,045 :: DEBUG :: Finished Request
+2018-04-01 14:48:42,046 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:42,134 :: DEBUG :: Finished Request
+2018-04-01 14:48:45,225 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:45,227 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:47,715 :: DEBUG :: Finished Request
+2018-04-01 14:48:47,717 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:47,853 :: DEBUG :: Finished Request
+2018-04-01 14:48:50,777 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:50,779 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:52,724 :: DEBUG :: Finished Request
+2018-04-01 14:48:52,726 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:52,903 :: DEBUG :: Finished Request
+2018-04-01 14:48:55,938 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:48:55,939 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:57,783 :: DEBUG :: Finished Request
+2018-04-01 14:48:57,785 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:48:57,909 :: DEBUG :: Finished Request
+2018-04-01 14:49:00,925 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:49:00,927 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:02,770 :: DEBUG :: Finished Request
+2018-04-01 14:49:02,773 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:02,944 :: DEBUG :: Finished Request
+2018-04-01 14:49:05,912 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:49:05,913 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:08,789 :: DEBUG :: Finished Request
+2018-04-01 14:49:08,792 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:08,926 :: DEBUG :: Finished Request
+2018-04-01 14:49:11,877 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:49:11,878 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:13,613 :: DEBUG :: Finished Request
+2018-04-01 14:49:13,616 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:13,752 :: DEBUG :: Finished Request
+2018-04-01 14:49:16,826 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:49:16,827 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:18,727 :: DEBUG :: Finished Request
+2018-04-01 14:49:18,730 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:18,857 :: DEBUG :: Finished Request
+2018-04-01 14:49:21,827 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:49:21,828 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:23,506 :: DEBUG :: Finished Request
+2018-04-01 14:49:23,509 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:23,647 :: DEBUG :: Finished Request
+2018-04-01 14:49:26,599 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:49:26,601 :: DEBUG :: POST http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32", "sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:28,538 :: DEBUG :: Finished Request
+2018-04-01 14:49:28,540 :: DEBUG :: GET http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/source {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:28,708 :: DEBUG :: Finished Request
+2018-04-01 14:49:30,832 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:49:30,834 :: DEBUG :: DELETE http://127.0.0.1:62561/session/3313dfb9e5443c4e8a1a6142f0eb4636/window {"sessionId": "3313dfb9e5443c4e8a1a6142f0eb4636"}
+2018-04-01 14:49:30,943 :: DEBUG :: Finished Request
+2018-04-01 14:50:07,171 :: DEBUG :: POST http://127.0.0.1:63746/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-01 14:50:07,945 :: DEBUG :: Finished Request
+2018-04-01 14:50:07,949 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:11,922 :: DEBUG :: Finished Request
+2018-04-01 14:50:11,925 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:12,152 :: DEBUG :: Finished Request
+2018-04-01 14:50:14,965 :: DEBUG :: We got 632 annonces on 32 pages
+2018-04-01 14:50:16,360 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:16,362 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:18,819 :: DEBUG :: Finished Request
+2018-04-01 14:50:18,822 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:19,028 :: DEBUG :: Finished Request
+2018-04-01 14:50:23,049 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:23,051 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:24,970 :: DEBUG :: Finished Request
+2018-04-01 14:50:24,972 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:25,122 :: DEBUG :: Finished Request
+2018-04-01 14:50:28,724 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:28,726 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:31,568 :: DEBUG :: Finished Request
+2018-04-01 14:50:31,570 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:31,713 :: DEBUG :: Finished Request
+2018-04-01 14:50:35,103 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:35,105 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:36,756 :: DEBUG :: Finished Request
+2018-04-01 14:50:36,759 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:36,945 :: DEBUG :: Finished Request
+2018-04-01 14:50:40,183 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:40,184 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:41,795 :: DEBUG :: Finished Request
+2018-04-01 14:50:41,797 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:41,967 :: DEBUG :: Finished Request
+2018-04-01 14:50:45,000 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:45,002 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:46,808 :: DEBUG :: Finished Request
+2018-04-01 14:50:46,810 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:46,918 :: DEBUG :: Finished Request
+2018-04-01 14:50:50,167 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:50,169 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:51,784 :: DEBUG :: Finished Request
+2018-04-01 14:50:51,786 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:51,941 :: DEBUG :: Finished Request
+2018-04-01 14:50:55,058 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:50:55,059 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:56,731 :: DEBUG :: Finished Request
+2018-04-01 14:50:56,733 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:50:56,904 :: DEBUG :: Finished Request
+2018-04-01 14:51:00,006 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:00,008 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:01,986 :: DEBUG :: Finished Request
+2018-04-01 14:51:01,989 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:02,109 :: DEBUG :: Finished Request
+2018-04-01 14:51:05,101 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:05,103 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:06,729 :: DEBUG :: Finished Request
+2018-04-01 14:51:06,734 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:06,890 :: DEBUG :: Finished Request
+2018-04-01 14:51:09,924 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:09,925 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:12,011 :: DEBUG :: Finished Request
+2018-04-01 14:51:12,013 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:12,132 :: DEBUG :: Finished Request
+2018-04-01 14:51:15,158 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:15,160 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:16,962 :: DEBUG :: Finished Request
+2018-04-01 14:51:16,963 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:17,075 :: DEBUG :: Finished Request
+2018-04-01 14:51:20,262 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:20,264 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:21,928 :: DEBUG :: Finished Request
+2018-04-01 14:51:21,931 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:22,057 :: DEBUG :: Finished Request
+2018-04-01 14:51:25,157 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:25,158 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:27,261 :: DEBUG :: Finished Request
+2018-04-01 14:51:27,263 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:27,397 :: DEBUG :: Finished Request
+2018-04-01 14:51:30,479 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:30,481 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:32,016 :: DEBUG :: Finished Request
+2018-04-01 14:51:32,018 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:32,254 :: DEBUG :: Finished Request
+2018-04-01 14:51:35,215 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:35,217 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:36,954 :: DEBUG :: Finished Request
+2018-04-01 14:51:36,957 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:37,093 :: DEBUG :: Finished Request
+2018-04-01 14:51:40,081 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:40,083 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:41,700 :: DEBUG :: Finished Request
+2018-04-01 14:51:41,703 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:41,844 :: DEBUG :: Finished Request
+2018-04-01 14:51:44,886 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:44,888 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:46,631 :: DEBUG :: Finished Request
+2018-04-01 14:51:46,635 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:46,804 :: DEBUG :: Finished Request
+2018-04-01 14:51:49,824 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:49,826 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:51,545 :: DEBUG :: Finished Request
+2018-04-01 14:51:51,547 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:51,695 :: DEBUG :: Finished Request
+2018-04-01 14:51:54,676 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:51:54,677 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:56,990 :: DEBUG :: Finished Request
+2018-04-01 14:51:56,992 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:51:57,120 :: DEBUG :: Finished Request
+2018-04-01 14:52:00,180 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:00,182 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:01,893 :: DEBUG :: Finished Request
+2018-04-01 14:52:01,896 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:02,073 :: DEBUG :: Finished Request
+2018-04-01 14:52:05,063 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:05,065 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:06,739 :: DEBUG :: Finished Request
+2018-04-01 14:52:06,741 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:06,903 :: DEBUG :: Finished Request
+2018-04-01 14:52:09,932 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:09,933 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:11,799 :: DEBUG :: Finished Request
+2018-04-01 14:52:11,802 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:11,932 :: DEBUG :: Finished Request
+2018-04-01 14:52:14,892 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:14,894 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:16,655 :: DEBUG :: Finished Request
+2018-04-01 14:52:16,656 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:16,756 :: DEBUG :: Finished Request
+2018-04-01 14:52:19,836 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:19,838 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:21,406 :: DEBUG :: Finished Request
+2018-04-01 14:52:21,409 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:21,673 :: DEBUG :: Finished Request
+2018-04-01 14:52:24,658 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:24,659 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:26,431 :: DEBUG :: Finished Request
+2018-04-01 14:52:26,433 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:26,576 :: DEBUG :: Finished Request
+2018-04-01 14:52:29,547 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:29,549 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:31,286 :: DEBUG :: Finished Request
+2018-04-01 14:52:31,290 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:31,450 :: DEBUG :: Finished Request
+2018-04-01 14:52:34,458 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:34,459 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:38,872 :: DEBUG :: Finished Request
+2018-04-01 14:52:38,874 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:39,014 :: DEBUG :: Finished Request
+2018-04-01 14:52:42,018 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:42,021 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:43,973 :: DEBUG :: Finished Request
+2018-04-01 14:52:43,975 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:44,099 :: DEBUG :: Finished Request
+2018-04-01 14:52:47,032 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:47,034 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:48,888 :: DEBUG :: Finished Request
+2018-04-01 14:52:48,891 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:49,015 :: DEBUG :: Finished Request
+2018-04-01 14:52:52,096 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:52,098 :: DEBUG :: POST http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32", "sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:53,573 :: DEBUG :: Finished Request
+2018-04-01 14:52:53,578 :: DEBUG :: GET http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/source {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:53,703 :: DEBUG :: Finished Request
+2018-04-01 14:52:55,831 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32
+Object of type 'datetime' is not JSON serializable
+2018-04-01 14:52:55,832 :: DEBUG :: DELETE http://127.0.0.1:63746/session/c07d2d9b552e13e84465b1a9364e8fec/window {"sessionId": "c07d2d9b552e13e84465b1a9364e8fec"}
+2018-04-01 14:52:55,941 :: DEBUG :: Finished Request
+2018-04-01 15:01:45,608 :: DEBUG :: POST http://127.0.0.1:49956/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-01 15:01:46,292 :: DEBUG :: Finished Request
+2018-04-01 15:01:46,296 :: DEBUG :: POST http://127.0.0.1:49956/session/3c25f43364112a5a9b41d4691277664f/url {"url": "http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646", "sessionId": "3c25f43364112a5a9b41d4691277664f"}
+2018-04-01 15:01:52,519 :: DEBUG :: Finished Request
+2018-04-01 15:01:52,521 :: DEBUG :: GET http://127.0.0.1:49956/session/3c25f43364112a5a9b41d4691277664f/source {"sessionId": "3c25f43364112a5a9b41d4691277664f"}
+2018-04-01 15:01:52,792 :: DEBUG :: Finished Request
+2018-04-01 15:01:56,479 :: DEBUG :: We got 632 annonces on 32 pages

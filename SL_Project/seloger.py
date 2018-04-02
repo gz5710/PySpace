@@ -6,6 +6,7 @@ import json
 import os
 import logging
 from logging.handlers import RotatingFileHandler
+from mysql_helper import MysqlHelper
 
 # création de l'objet logger qui va nous servir à écrire dans les logs
 logger = logging.getLogger()
@@ -30,16 +31,19 @@ stream_handler = logging.StreamHandler()
 stream_handler.setLevel(logging.DEBUG)
 logger.addHandler(stream_handler)
 
+
+
+curr_page = 1
+url_base = r"http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg="
+url = f"{url_base}{curr_page}"
 # url = r'http://www.seloger.com/list.htm?types=1&projects=2,5&natures=1,2,4&price=NaN/270000&surface=50/NaN&rooms=2,3&places=[{ci:780646}|{ci:780686}]&qsVersion=1.0&engine-version=new'
 # url = r'http://www.seloger.com/list.htm?types=1&projects=2,5&natures=1,2,4&price=NaN/270000&surface=50/NaN&rooms=2,3&places=[{ci:780646}|{ci:780686}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2'
-url = r'http://www.seloger.com/list.htm?tri=initial&idtypebien=1&idtt=2,5&naturebien=1,2,4&ci=780646'
 
 driver = webdriver.Chrome('/Users/gz5710/Downloads/chromedriver')
 driver.get(url)
 
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-annonces = {}
 
 try:    
     total_anno_nb = int(soup.select('div.title_nbresult')[0].text.split(' ')[0])
@@ -49,56 +53,49 @@ try:
         exit()
 except Exception as ex:
     logger.error(f"Error in getting number of annonces\n{ex}")
+    exit()
 
-curr_page = 1
-url_base = r"http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg="
 while curr_page <= total_page_nb:
     try:    
-        # print(soup.prettify())
+        annonces = {}
         lists = soup.select('div.c-pa-list')
         for a in lists:
+            # Parse html to dict
             anno = {}  
-            # print('====================================================')
-            # print(t['title'])
+            anno['creation_date'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             anno['id'] = a['id']
-            # print(anno['id'])
             anno['title'] = a.select('a.c-pa-link')[0]['title'].strip()
-            # print(anno['title'])
             anno['link'] = a.select('a.c-pa-link')[0]['href']
-            # print(anno['link'])
-            anno['criterion'] = f"{a.select('div.c-pa-criterion em')[0].text} / {a.select('div.c-pa-criterion em')[1].text} / {a.select('div.c-pa-criterion em')[2].text}"
-            # print(anno['criterion'])
-            anno['price'] = a.find('span', {'class':'c-pa-cprice'}).text.replace('\n', '').replace(' ', '').replace('\xa0', ' ')
-            # print(anno['price'])
+            for em in a.select('div.c-pa-criterion em'):
+                if 'p' in em.text:
+                    anno['piece'] = em.text.split(' ')[0]
+                elif 'ch' in em.text:
+                    anno['room'] = em.text.split(' ')[0]
+                elif 'm²' in em.text:
+                    anno['surface'] = em.text.split(' ')[0].replace(',', '.')
+            anno['price'] = a.find('span', {'class':'c-pa-cprice'}).text.replace('\n', '').replace(' ', '').replace('\xa0', '').replace('\u20ac', '')
+            anno['currency'] = 'EUR'
+            anno['price_updated_date'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
             anno['city'] = a.select('div.c-pa-city')[0].text
-            # print(anno['city'])
             if a.select('div.c-pa-agency a') != []:
-                anno['agency'] = a.select('div.c-pa-agency a')[-1]['href']
-            else:
-                anno['agency'] = None
-            
-            # print(anno['agency'])
+                anno['agency_link'] = a.select('div.c-pa-agency a')[-1]['href']
             if a.select('div.c-pa-actions a[tabindex=0]') != []:
-                anno['tel'] = a.select('div.c-pa-actions a[tabindex=0]')[0]['data-tooltip-focus']
-            else:
-                anno['tel'] = None
+                anno['agency_tel'] = a.select('div.c-pa-actions a[tabindex=0]')[0]['data-tooltip-focus']
+            anno['available'] = True
+            anno['source'] = 'seloger'
+            anno['type'] = 1
             
-            # print(anno['tel'])
-            # print(anno)
-            # print('====================================================')
             annonces[anno['id']] = anno
         
-        # print(annonces)
+        # MysqlHelper.InsertDictAnnonces(annonces)
+
         # save result to JSON
         json = json.dumps(annonces)
         f = open(f"{os.path.dirname(__file__)}/records/sl-{datetime.now().strftime('%Y-%m-%d')}.json","a+")
         f.write(json)
         f.close()
-
-        
-        
     except Exception as ex:
-        print(ex)
+        logger.error(f"Error happens on the page {url}\n{ex}")
     finally:
         # find next page
         curr_page += 1

@@ -1,0 +1,815 @@
+2018-04-02 12:11:16,210 :: DEBUG :: POST http://127.0.0.1:61738/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 12:11:17,179 :: DEBUG :: Finished Request
+2018-04-02 12:11:17,183 :: DEBUG :: POST http://127.0.0.1:61738/session/5a4419a44399cf779ab41d8ca48a4fde/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "5a4419a44399cf779ab41d8ca48a4fde"}
+2018-04-02 12:11:20,824 :: DEBUG :: Finished Request
+2018-04-02 12:11:20,827 :: DEBUG :: GET http://127.0.0.1:61738/session/5a4419a44399cf779ab41d8ca48a4fde/source {"sessionId": "5a4419a44399cf779ab41d8ca48a4fde"}
+2018-04-02 12:11:21,021 :: DEBUG :: Finished Request
+2018-04-02 12:11:24,058 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 12:59:27,807 :: DEBUG :: POST http://127.0.0.1:55897/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 12:59:28,601 :: DEBUG :: Finished Request
+2018-04-02 12:59:28,605 :: DEBUG :: POST http://127.0.0.1:55897/session/dc749b9f30916f88daea7456d4e817a2/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "dc749b9f30916f88daea7456d4e817a2"}
+2018-04-02 12:59:31,908 :: DEBUG :: Finished Request
+2018-04-02 12:59:31,911 :: DEBUG :: GET http://127.0.0.1:55897/session/dc749b9f30916f88daea7456d4e817a2/source {"sessionId": "dc749b9f30916f88daea7456d4e817a2"}
+2018-04-02 12:59:32,218 :: DEBUG :: Finished Request
+2018-04-02 12:59:35,458 :: DEBUG :: We got 628 annonces on 32 pages
+2018-04-02 13:00:13,366 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+sequence item 0: expected str instance, datetime.datetime found
+2018-04-02 13:00:13,368 :: DEBUG :: POST http://127.0.0.1:55897/session/dc749b9f30916f88daea7456d4e817a2/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "dc749b9f30916f88daea7456d4e817a2"}
+2018-04-02 13:00:15,901 :: DEBUG :: Finished Request
+2018-04-02 13:00:15,903 :: DEBUG :: GET http://127.0.0.1:55897/session/dc749b9f30916f88daea7456d4e817a2/source {"sessionId": "dc749b9f30916f88daea7456d4e817a2"}
+2018-04-02 13:00:16,128 :: DEBUG :: Finished Request
+2018-04-02 13:00:28,309 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+sequence item 0: expected str instance, datetime.datetime found
+2018-04-02 13:00:28,311 :: DEBUG :: POST http://127.0.0.1:55897/session/dc749b9f30916f88daea7456d4e817a2/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "dc749b9f30916f88daea7456d4e817a2"}
+2018-04-02 13:00:30,618 :: DEBUG :: Finished Request
+2018-04-02 13:00:30,620 :: DEBUG :: GET http://127.0.0.1:55897/session/dc749b9f30916f88daea7456d4e817a2/source {"sessionId": "dc749b9f30916f88daea7456d4e817a2"}
+2018-04-02 13:00:30,911 :: DEBUG :: Finished Request
+2018-04-02 13:03:07,570 :: DEBUG :: POST http://127.0.0.1:56837/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:03:08,631 :: DEBUG :: Finished Request
+2018-04-02 13:03:08,634 :: DEBUG :: POST http://127.0.0.1:56837/session/470ec54d03c35887569393bd6734911a/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "470ec54d03c35887569393bd6734911a"}
+2018-04-02 13:03:12,319 :: DEBUG :: Finished Request
+2018-04-02 13:03:12,322 :: DEBUG :: GET http://127.0.0.1:56837/session/470ec54d03c35887569393bd6734911a/source {"sessionId": "470ec54d03c35887569393bd6734911a"}
+2018-04-02 13:03:12,671 :: DEBUG :: Finished Request
+2018-04-02 13:03:16,091 :: DEBUG :: We got 628 annonces on 32 pages
+2018-04-02 13:03:17,766 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+sequence item 13: expected str instance, bool found
+2018-04-02 13:03:17,769 :: DEBUG :: POST http://127.0.0.1:56837/session/470ec54d03c35887569393bd6734911a/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "470ec54d03c35887569393bd6734911a"}
+2018-04-02 13:03:19,981 :: DEBUG :: Finished Request
+2018-04-02 13:03:19,985 :: DEBUG :: GET http://127.0.0.1:56837/session/470ec54d03c35887569393bd6734911a/source {"sessionId": "470ec54d03c35887569393bd6734911a"}
+2018-04-02 13:03:20,175 :: DEBUG :: Finished Request
+2018-04-02 13:03:24,664 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+sequence item 13: expected str instance, bool found
+2018-04-02 13:03:24,666 :: DEBUG :: POST http://127.0.0.1:56837/session/470ec54d03c35887569393bd6734911a/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "470ec54d03c35887569393bd6734911a"}
+2018-04-02 13:03:51,820 :: DEBUG :: POST http://127.0.0.1:57111/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:03:52,741 :: DEBUG :: Finished Request
+2018-04-02 13:03:52,745 :: DEBUG :: POST http://127.0.0.1:57111/session/b0cf419388391c343398905d03b80a8c/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "b0cf419388391c343398905d03b80a8c"}
+2018-04-02 13:03:57,477 :: DEBUG :: Finished Request
+2018-04-02 13:03:57,480 :: DEBUG :: GET http://127.0.0.1:57111/session/b0cf419388391c343398905d03b80a8c/source {"sessionId": "b0cf419388391c343398905d03b80a8c"}
+2018-04-02 13:03:57,666 :: DEBUG :: Finished Request
+2018-04-02 13:04:00,683 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 13:04:08,084 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+sequence item 13: expected str instance, int found
+2018-04-02 13:04:57,441 :: DEBUG :: POST http://127.0.0.1:57430/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:04:58,167 :: DEBUG :: Finished Request
+2018-04-02 13:04:58,169 :: DEBUG :: POST http://127.0.0.1:57430/session/a9c28c290e4491fcd11cb0f592e03680/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "a9c28c290e4491fcd11cb0f592e03680"}
+2018-04-02 13:05:01,636 :: DEBUG :: Finished Request
+2018-04-02 13:05:01,639 :: DEBUG :: GET http://127.0.0.1:57430/session/a9c28c290e4491fcd11cb0f592e03680/source {"sessionId": "a9c28c290e4491fcd11cb0f592e03680"}
+2018-04-02 13:05:01,747 :: DEBUG :: Finished Request
+2018-04-02 13:05:04,960 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 13:14:54,768 :: DEBUG :: POST http://127.0.0.1:59984/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:14:55,469 :: DEBUG :: Finished Request
+2018-04-02 13:14:55,475 :: DEBUG :: POST http://127.0.0.1:59984/session/d021cd83171bc1c429394277ae7a3131/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "d021cd83171bc1c429394277ae7a3131"}
+2018-04-02 13:14:59,431 :: DEBUG :: Finished Request
+2018-04-02 13:14:59,433 :: DEBUG :: GET http://127.0.0.1:59984/session/d021cd83171bc1c429394277ae7a3131/source {"sessionId": "d021cd83171bc1c429394277ae7a3131"}
+2018-04-02 13:14:59,590 :: DEBUG :: Finished Request
+2018-04-02 13:15:03,099 :: DEBUG :: We got 628 annonces on 32 pages
+2018-04-02 13:16:26,852 :: DEBUG :: POST http://127.0.0.1:59984/session/d021cd83171bc1c429394277ae7a3131/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "d021cd83171bc1c429394277ae7a3131"}
+2018-04-02 13:16:29,727 :: DEBUG :: Finished Request
+2018-04-02 13:16:29,730 :: DEBUG :: GET http://127.0.0.1:59984/session/d021cd83171bc1c429394277ae7a3131/source {"sessionId": "d021cd83171bc1c429394277ae7a3131"}
+2018-04-02 13:16:29,903 :: DEBUG :: Finished Request
+2018-04-02 13:18:45,813 :: DEBUG :: POST http://127.0.0.1:60940/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:18:46,525 :: DEBUG :: Finished Request
+2018-04-02 13:18:46,529 :: DEBUG :: POST http://127.0.0.1:60940/session/7307238c51711afcaa8cd0f4533df04b/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "7307238c51711afcaa8cd0f4533df04b"}
+2018-04-02 13:18:49,597 :: DEBUG :: Finished Request
+2018-04-02 13:18:49,599 :: DEBUG :: GET http://127.0.0.1:60940/session/7307238c51711afcaa8cd0f4533df04b/source {"sessionId": "7307238c51711afcaa8cd0f4533df04b"}
+2018-04-02 13:18:49,770 :: DEBUG :: Finished Request
+2018-04-02 13:18:52,921 :: DEBUG :: We got 628 annonces on 32 pages
+2018-04-02 13:25:48,158 :: DEBUG :: POST http://127.0.0.1:62732/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:25:48,824 :: DEBUG :: Finished Request
+2018-04-02 13:25:48,827 :: DEBUG :: POST http://127.0.0.1:62732/session/20f3b315870b827ddb523e34459d6257/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "20f3b315870b827ddb523e34459d6257"}
+2018-04-02 13:25:52,504 :: DEBUG :: Finished Request
+2018-04-02 13:25:52,506 :: DEBUG :: GET http://127.0.0.1:62732/session/20f3b315870b827ddb523e34459d6257/source {"sessionId": "20f3b315870b827ddb523e34459d6257"}
+2018-04-02 13:25:52,610 :: DEBUG :: Finished Request
+2018-04-02 13:25:55,714 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 13:53:07,387 :: DEBUG :: POST http://127.0.0.1:52840/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:53:08,153 :: DEBUG :: Finished Request
+2018-04-02 13:53:08,157 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:11,543 :: DEBUG :: Finished Request
+2018-04-02 13:53:11,546 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:11,720 :: DEBUG :: Finished Request
+2018-04-02 13:53:15,053 :: DEBUG :: We got 630 annonces on 32 pages
+2018-04-02 13:53:15,280 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+'str' object has no attribute 'text'
+2018-04-02 13:53:15,282 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:18,253 :: DEBUG :: Finished Request
+2018-04-02 13:53:18,258 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:18,468 :: DEBUG :: Finished Request
+2018-04-02 13:53:21,740 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+'str' object has no attribute 'text'
+2018-04-02 13:53:21,742 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:26,559 :: DEBUG :: Finished Request
+2018-04-02 13:53:26,563 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:26,700 :: DEBUG :: Finished Request
+2018-04-02 13:53:30,176 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3
+'str' object has no attribute 'text'
+2018-04-02 13:53:30,179 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:32,193 :: DEBUG :: Finished Request
+2018-04-02 13:53:32,196 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:32,336 :: DEBUG :: Finished Request
+2018-04-02 13:53:34,968 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4
+'str' object has no attribute 'text'
+2018-04-02 13:53:34,970 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:37,102 :: DEBUG :: Finished Request
+2018-04-02 13:53:37,105 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:37,256 :: DEBUG :: Finished Request
+2018-04-02 13:53:39,687 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5
+'str' object has no attribute 'text'
+2018-04-02 13:53:39,689 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:41,383 :: DEBUG :: Finished Request
+2018-04-02 13:53:41,386 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:41,565 :: DEBUG :: Finished Request
+2018-04-02 13:53:43,917 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6
+'str' object has no attribute 'text'
+2018-04-02 13:53:43,918 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:45,680 :: DEBUG :: Finished Request
+2018-04-02 13:53:45,683 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:45,836 :: DEBUG :: Finished Request
+2018-04-02 13:53:48,227 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7
+'str' object has no attribute 'text'
+2018-04-02 13:53:48,229 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:49,982 :: DEBUG :: Finished Request
+2018-04-02 13:53:49,984 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:50,119 :: DEBUG :: Finished Request
+2018-04-02 13:53:52,551 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8
+'str' object has no attribute 'text'
+2018-04-02 13:53:52,553 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:54,244 :: DEBUG :: Finished Request
+2018-04-02 13:53:54,246 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:54,364 :: DEBUG :: Finished Request
+2018-04-02 13:53:56,746 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9
+'str' object has no attribute 'text'
+2018-04-02 13:53:56,747 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:58,677 :: DEBUG :: Finished Request
+2018-04-02 13:53:58,681 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:53:58,852 :: DEBUG :: Finished Request
+2018-04-02 13:54:01,168 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10
+'str' object has no attribute 'text'
+2018-04-02 13:54:01,170 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:03,052 :: DEBUG :: Finished Request
+2018-04-02 13:54:03,055 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:03,183 :: DEBUG :: Finished Request
+2018-04-02 13:54:05,632 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11
+'str' object has no attribute 'text'
+2018-04-02 13:54:05,633 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:07,891 :: DEBUG :: Finished Request
+2018-04-02 13:54:07,893 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:08,032 :: DEBUG :: Finished Request
+2018-04-02 13:54:10,476 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12
+'str' object has no attribute 'text'
+2018-04-02 13:54:10,478 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:12,277 :: DEBUG :: Finished Request
+2018-04-02 13:54:12,279 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:12,413 :: DEBUG :: Finished Request
+2018-04-02 13:54:14,815 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13
+'str' object has no attribute 'text'
+2018-04-02 13:54:14,816 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:16,696 :: DEBUG :: Finished Request
+2018-04-02 13:54:16,700 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:16,852 :: DEBUG :: Finished Request
+2018-04-02 13:54:19,239 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14
+'str' object has no attribute 'text'
+2018-04-02 13:54:19,241 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:21,910 :: DEBUG :: Finished Request
+2018-04-02 13:54:21,912 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:22,052 :: DEBUG :: Finished Request
+2018-04-02 13:54:24,379 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15
+'str' object has no attribute 'text'
+2018-04-02 13:54:24,380 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:26,577 :: DEBUG :: Finished Request
+2018-04-02 13:54:26,580 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:26,706 :: DEBUG :: Finished Request
+2018-04-02 13:54:29,045 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16
+'str' object has no attribute 'text'
+2018-04-02 13:54:29,047 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:30,711 :: DEBUG :: Finished Request
+2018-04-02 13:54:30,714 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:30,859 :: DEBUG :: Finished Request
+2018-04-02 13:54:33,250 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17
+'str' object has no attribute 'text'
+2018-04-02 13:54:33,252 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:35,072 :: DEBUG :: Finished Request
+2018-04-02 13:54:35,074 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:35,212 :: DEBUG :: Finished Request
+2018-04-02 13:54:37,711 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18
+'str' object has no attribute 'text'
+2018-04-02 13:54:37,713 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:39,869 :: DEBUG :: Finished Request
+2018-04-02 13:54:39,872 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:39,997 :: DEBUG :: Finished Request
+2018-04-02 13:54:42,414 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19
+'str' object has no attribute 'text'
+2018-04-02 13:54:42,416 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:44,605 :: DEBUG :: Finished Request
+2018-04-02 13:54:44,606 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:44,729 :: DEBUG :: Finished Request
+2018-04-02 13:54:47,902 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20
+'str' object has no attribute 'text'
+2018-04-02 13:54:47,903 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:49,639 :: DEBUG :: Finished Request
+2018-04-02 13:54:49,642 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:49,807 :: DEBUG :: Finished Request
+2018-04-02 13:54:52,199 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21
+'str' object has no attribute 'text'
+2018-04-02 13:54:52,200 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:54,175 :: DEBUG :: Finished Request
+2018-04-02 13:54:54,177 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:54,321 :: DEBUG :: Finished Request
+2018-04-02 13:54:57,355 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22
+'str' object has no attribute 'text'
+2018-04-02 13:54:57,357 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:59,408 :: DEBUG :: Finished Request
+2018-04-02 13:54:59,411 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:54:59,697 :: DEBUG :: Finished Request
+2018-04-02 13:55:02,382 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23
+'str' object has no attribute 'text'
+2018-04-02 13:55:02,385 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:04,271 :: DEBUG :: Finished Request
+2018-04-02 13:55:04,274 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:04,425 :: DEBUG :: Finished Request
+2018-04-02 13:55:07,164 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24
+'str' object has no attribute 'text'
+2018-04-02 13:55:07,167 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:09,124 :: DEBUG :: Finished Request
+2018-04-02 13:55:09,127 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:09,271 :: DEBUG :: Finished Request
+2018-04-02 13:55:11,903 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25
+'str' object has no attribute 'text'
+2018-04-02 13:55:11,905 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:14,180 :: DEBUG :: Finished Request
+2018-04-02 13:55:14,184 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:14,331 :: DEBUG :: Finished Request
+2018-04-02 13:55:17,205 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26
+'str' object has no attribute 'text'
+2018-04-02 13:55:17,207 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:20,517 :: DEBUG :: Finished Request
+2018-04-02 13:55:20,520 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:20,661 :: DEBUG :: Finished Request
+2018-04-02 13:55:23,231 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27
+'str' object has no attribute 'text'
+2018-04-02 13:55:23,233 :: DEBUG :: POST http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28", "sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:25,408 :: DEBUG :: Finished Request
+2018-04-02 13:55:25,411 :: DEBUG :: GET http://127.0.0.1:52840/session/b0aa794e50df6eafbc5fc59075255d50/source {"sessionId": "b0aa794e50df6eafbc5fc59075255d50"}
+2018-04-02 13:55:27,001 :: DEBUG :: Finished Request
+2018-04-02 13:55:50,761 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28
+(1065, 'Query was empty')
+2018-04-02 13:56:27,894 :: DEBUG :: POST http://127.0.0.1:53913/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:56:28,693 :: DEBUG :: Finished Request
+2018-04-02 13:56:28,697 :: DEBUG :: POST http://127.0.0.1:53913/session/ba3289c52704397258c59e2983dee8d7/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "ba3289c52704397258c59e2983dee8d7"}
+2018-04-02 13:56:32,731 :: DEBUG :: Finished Request
+2018-04-02 13:56:32,734 :: DEBUG :: GET http://127.0.0.1:53913/session/ba3289c52704397258c59e2983dee8d7/source {"sessionId": "ba3289c52704397258c59e2983dee8d7"}
+2018-04-02 13:56:32,757 :: DEBUG :: Finished Request
+2018-04-02 13:56:32,830 :: ERROR :: Error in getting number of annonces
+list index out of range
+2018-04-02 13:57:11,132 :: DEBUG :: POST http://127.0.0.1:54080/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:57:11,884 :: DEBUG :: Finished Request
+2018-04-02 13:57:11,889 :: DEBUG :: POST http://127.0.0.1:54080/session/ca471429ef17e30369e0a2c158c9591a/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "ca471429ef17e30369e0a2c158c9591a"}
+2018-04-02 13:57:17,990 :: DEBUG :: Finished Request
+2018-04-02 13:57:17,992 :: DEBUG :: GET http://127.0.0.1:54080/session/ca471429ef17e30369e0a2c158c9591a/source {"sessionId": "ca471429ef17e30369e0a2c158c9591a"}
+2018-04-02 13:57:18,017 :: DEBUG :: Finished Request
+2018-04-02 13:57:18,090 :: ERROR :: Error in getting number of annonces
+list index out of range
+2018-04-02 13:59:24,145 :: DEBUG :: POST http://127.0.0.1:54549/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 13:59:24,830 :: DEBUG :: Finished Request
+2018-04-02 13:59:24,834 :: DEBUG :: POST http://127.0.0.1:54549/session/d5b9a1d19894da947837e4e6eba1f3e7/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "d5b9a1d19894da947837e4e6eba1f3e7"}
+2018-04-02 13:59:28,623 :: DEBUG :: Finished Request
+2018-04-02 13:59:28,625 :: DEBUG :: GET http://127.0.0.1:54549/session/d5b9a1d19894da947837e4e6eba1f3e7/source {"sessionId": "d5b9a1d19894da947837e4e6eba1f3e7"}
+2018-04-02 13:59:28,652 :: DEBUG :: Finished Request
+2018-04-02 13:59:28,728 :: ERROR :: Error in getting number of annonces
+list index out of range
+2018-04-02 14:00:53,922 :: DEBUG :: POST http://127.0.0.1:54827/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:00:54,636 :: DEBUG :: Finished Request
+2018-04-02 14:00:54,640 :: DEBUG :: POST http://127.0.0.1:54827/session/817172dd6ac9a23b1c2f065cd741bf86/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "817172dd6ac9a23b1c2f065cd741bf86"}
+2018-04-02 14:00:58,636 :: DEBUG :: Finished Request
+2018-04-02 14:02:51,132 :: DEBUG :: POST http://127.0.0.1:55260/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:02:51,835 :: DEBUG :: Finished Request
+2018-04-02 14:02:51,839 :: DEBUG :: POST http://127.0.0.1:55260/session/792f7b44da49bcc6cc6350b82da93a18/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "792f7b44da49bcc6cc6350b82da93a18"}
+2018-04-02 14:02:55,708 :: DEBUG :: Finished Request
+2018-04-02 14:03:01,035 :: DEBUG :: GET http://127.0.0.1:55260/session/792f7b44da49bcc6cc6350b82da93a18/source {"sessionId": "792f7b44da49bcc6cc6350b82da93a18"}
+2018-04-02 14:03:02,555 :: DEBUG :: Finished Request
+2018-04-02 14:03:02,630 :: ERROR :: Error in getting number of annonces
+list index out of range
+2018-04-02 14:04:07,193 :: DEBUG :: POST http://127.0.0.1:55504/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:04:07,935 :: DEBUG :: Finished Request
+2018-04-02 14:04:07,939 :: DEBUG :: POST http://127.0.0.1:55504/session/7d11bb96da8b9fa46b8facc8f4a4cca0/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2,5&natures=1,2,4&price=NaN/270000&surface=50/NaN&rooms=2,3&places=[{ci:780646}|{ci:780686}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "7d11bb96da8b9fa46b8facc8f4a4cca0"}
+2018-04-02 14:04:11,587 :: DEBUG :: Finished Request
+2018-04-02 14:04:23,415 :: DEBUG :: GET http://127.0.0.1:55504/session/7d11bb96da8b9fa46b8facc8f4a4cca0/source {"sessionId": "7d11bb96da8b9fa46b8facc8f4a4cca0"}
+2018-04-02 14:04:23,442 :: DEBUG :: Finished Request
+2018-04-02 14:04:38,187 :: ERROR :: Error in getting number of annonces
+list index out of range
+2018-04-02 14:07:16,913 :: DEBUG :: POST http://127.0.0.1:56078/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:07:17,664 :: DEBUG :: Finished Request
+2018-04-02 14:07:17,667 :: DEBUG :: POST http://127.0.0.1:56078/session/c459346bcfd15c619c17484f4552276a/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "c459346bcfd15c619c17484f4552276a"}
+2018-04-02 14:07:22,654 :: DEBUG :: Finished Request
+2018-04-02 14:07:22,656 :: DEBUG :: GET http://127.0.0.1:56078/session/c459346bcfd15c619c17484f4552276a/source {"sessionId": "c459346bcfd15c619c17484f4552276a"}
+2018-04-02 14:07:22,678 :: DEBUG :: Finished Request
+2018-04-02 14:07:22,750 :: ERROR :: Error in getting number of annonces
+list index out of range
+2018-04-02 14:12:05,586 :: DEBUG :: POST http://127.0.0.1:57402/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:12:05,605 :: DEBUG :: Finished Request
+2018-04-02 14:34:41,292 :: DEBUG :: POST http://127.0.0.1:63569/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:34:41,301 :: DEBUG :: Finished Request
+2018-04-02 14:34:54,215 :: DEBUG :: POST http://127.0.0.1:63641/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:34:55,106 :: DEBUG :: Finished Request
+2018-04-02 14:34:55,110 :: DEBUG :: POST http://127.0.0.1:63641/session/efec0e84ee6e8621aad3002196750f91/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "efec0e84ee6e8621aad3002196750f91"}
+2018-04-02 14:35:00,204 :: DEBUG :: Finished Request
+2018-04-02 14:35:00,207 :: DEBUG :: GET http://127.0.0.1:63641/session/efec0e84ee6e8621aad3002196750f91/source {"sessionId": "efec0e84ee6e8621aad3002196750f91"}
+2018-04-02 14:35:00,301 :: DEBUG :: Finished Request
+2018-04-02 14:35:06,946 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:35:18,325 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+'str' object has no attribute 'text'
+2018-04-02 14:35:23,570 :: DEBUG :: POST http://127.0.0.1:63641/session/efec0e84ee6e8621aad3002196750f91/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "efec0e84ee6e8621aad3002196750f91"}
+2018-04-02 14:35:26,869 :: DEBUG :: Finished Request
+2018-04-02 14:35:27,543 :: DEBUG :: GET http://127.0.0.1:63641/session/efec0e84ee6e8621aad3002196750f91/source {"sessionId": "efec0e84ee6e8621aad3002196750f91"}
+2018-04-02 14:35:27,614 :: DEBUG :: Finished Request
+2018-04-02 14:35:45,508 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+'str' object has no attribute 'text'
+2018-04-02 14:39:02,594 :: DEBUG :: POST http://127.0.0.1:64772/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:39:03,364 :: DEBUG :: Finished Request
+2018-04-02 14:39:03,367 :: DEBUG :: POST http://127.0.0.1:64772/session/7308c3d65c896dd0bff8df31b317cb44/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "7308c3d65c896dd0bff8df31b317cb44"}
+2018-04-02 14:39:11,716 :: DEBUG :: Finished Request
+2018-04-02 14:39:11,719 :: DEBUG :: GET http://127.0.0.1:64772/session/7308c3d65c896dd0bff8df31b317cb44/source {"sessionId": "7308c3d65c896dd0bff8df31b317cb44"}
+2018-04-02 14:39:11,801 :: DEBUG :: Finished Request
+2018-04-02 14:39:16,944 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:40:28,349 :: DEBUG :: POST http://127.0.0.1:65163/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:40:29,079 :: DEBUG :: Finished Request
+2018-04-02 14:40:29,083 :: DEBUG :: POST http://127.0.0.1:65163/session/4a266369e37b4a748588c6e0046365ba/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "4a266369e37b4a748588c6e0046365ba"}
+2018-04-02 14:40:34,845 :: DEBUG :: Finished Request
+2018-04-02 14:40:34,847 :: DEBUG :: GET http://127.0.0.1:65163/session/4a266369e37b4a748588c6e0046365ba/source {"sessionId": "4a266369e37b4a748588c6e0046365ba"}
+2018-04-02 14:40:34,918 :: DEBUG :: Finished Request
+2018-04-02 14:40:41,226 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:41:00,623 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+[<class 'decimal.ConversionSyntax'>]
+2018-04-02 14:41:00,624 :: DEBUG :: POST http://127.0.0.1:65163/session/4a266369e37b4a748588c6e0046365ba/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "4a266369e37b4a748588c6e0046365ba"}
+2018-04-02 14:41:04,395 :: DEBUG :: Finished Request
+2018-04-02 14:41:04,399 :: DEBUG :: GET http://127.0.0.1:65163/session/4a266369e37b4a748588c6e0046365ba/source {"sessionId": "4a266369e37b4a748588c6e0046365ba"}
+2018-04-02 14:41:04,550 :: DEBUG :: Finished Request
+2018-04-02 14:41:39,519 :: DEBUG :: POST http://127.0.0.1:65523/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:41:40,541 :: DEBUG :: Finished Request
+2018-04-02 14:41:40,545 :: DEBUG :: POST http://127.0.0.1:65523/session/910d91910e3b7fe75355ea40eb90a0bc/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "910d91910e3b7fe75355ea40eb90a0bc"}
+2018-04-02 14:41:46,571 :: DEBUG :: Finished Request
+2018-04-02 14:41:46,575 :: DEBUG :: GET http://127.0.0.1:65523/session/910d91910e3b7fe75355ea40eb90a0bc/source {"sessionId": "910d91910e3b7fe75355ea40eb90a0bc"}
+2018-04-02 14:41:46,665 :: DEBUG :: Finished Request
+2018-04-02 14:41:49,893 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:41:50,577 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+[<class 'decimal.ConversionSyntax'>]
+2018-04-02 14:41:50,579 :: DEBUG :: POST http://127.0.0.1:65523/session/910d91910e3b7fe75355ea40eb90a0bc/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "910d91910e3b7fe75355ea40eb90a0bc"}
+2018-04-02 14:41:53,577 :: DEBUG :: Finished Request
+2018-04-02 14:41:53,580 :: DEBUG :: GET http://127.0.0.1:65523/session/910d91910e3b7fe75355ea40eb90a0bc/source {"sessionId": "910d91910e3b7fe75355ea40eb90a0bc"}
+2018-04-02 14:41:53,743 :: DEBUG :: Finished Request
+2018-04-02 14:42:34,488 :: DEBUG :: POST http://127.0.0.1:49431/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:42:35,768 :: DEBUG :: Finished Request
+2018-04-02 14:42:35,772 :: DEBUG :: POST http://127.0.0.1:49431/session/2468783f504b0bef2d288e0e9f5a8736/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "2468783f504b0bef2d288e0e9f5a8736"}
+2018-04-02 14:42:40,031 :: DEBUG :: Finished Request
+2018-04-02 14:42:40,035 :: DEBUG :: GET http://127.0.0.1:49431/session/2468783f504b0bef2d288e0e9f5a8736/source {"sessionId": "2468783f504b0bef2d288e0e9f5a8736"}
+2018-04-02 14:42:40,126 :: DEBUG :: Finished Request
+2018-04-02 14:42:43,299 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:42:57,709 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+sequence item 6: expected str instance, decimal.Decimal found
+2018-04-02 14:43:50,535 :: DEBUG :: POST http://127.0.0.1:49804/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:43:51,481 :: DEBUG :: Finished Request
+2018-04-02 14:43:51,483 :: DEBUG :: POST http://127.0.0.1:49804/session/c90adb99ad3a1f258c16f1849692df5a/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "c90adb99ad3a1f258c16f1849692df5a"}
+2018-04-02 14:44:01,835 :: DEBUG :: Finished Request
+2018-04-02 14:44:01,838 :: DEBUG :: GET http://127.0.0.1:49804/session/c90adb99ad3a1f258c16f1849692df5a/source {"sessionId": "c90adb99ad3a1f258c16f1849692df5a"}
+2018-04-02 14:44:01,942 :: DEBUG :: Finished Request
+2018-04-02 14:44:05,252 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:44:13,850 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+sequence item 13: expected str instance, bool found
+2018-04-02 14:47:05,436 :: DEBUG :: POST http://127.0.0.1:50534/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:47:06,320 :: DEBUG :: Finished Request
+2018-04-02 14:47:06,324 :: DEBUG :: POST http://127.0.0.1:50534/session/d297d596bdbe4eaeb309ee96231e1abf/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "d297d596bdbe4eaeb309ee96231e1abf"}
+2018-04-02 14:47:13,274 :: DEBUG :: Finished Request
+2018-04-02 14:47:13,277 :: DEBUG :: GET http://127.0.0.1:50534/session/d297d596bdbe4eaeb309ee96231e1abf/source {"sessionId": "d297d596bdbe4eaeb309ee96231e1abf"}
+2018-04-02 14:47:13,363 :: DEBUG :: Finished Request
+2018-04-02 14:47:16,440 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:50:12,751 :: DEBUG :: POST http://127.0.0.1:51273/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:50:13,543 :: DEBUG :: Finished Request
+2018-04-02 14:50:13,547 :: DEBUG :: POST http://127.0.0.1:51273/session/bededd371df438eb261364ced6b32314/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "bededd371df438eb261364ced6b32314"}
+2018-04-02 14:50:22,802 :: DEBUG :: Finished Request
+2018-04-02 14:50:22,805 :: DEBUG :: GET http://127.0.0.1:51273/session/bededd371df438eb261364ced6b32314/source {"sessionId": "bededd371df438eb261364ced6b32314"}
+2018-04-02 14:50:22,900 :: DEBUG :: Finished Request
+2018-04-02 14:50:27,023 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:50:38,889 :: DEBUG :: POST http://127.0.0.1:51468/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:50:39,768 :: DEBUG :: Finished Request
+2018-04-02 14:50:39,773 :: DEBUG :: POST http://127.0.0.1:51468/session/d4c11fb752c5d227ed33ac3d16909a95/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "d4c11fb752c5d227ed33ac3d16909a95"}
+2018-04-02 14:50:44,427 :: DEBUG :: Finished Request
+2018-04-02 14:50:44,430 :: DEBUG :: GET http://127.0.0.1:51468/session/d4c11fb752c5d227ed33ac3d16909a95/source {"sessionId": "d4c11fb752c5d227ed33ac3d16909a95"}
+2018-04-02 14:50:44,531 :: DEBUG :: Finished Request
+2018-04-02 14:50:47,738 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:52:54,317 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO `Annonce` (creation_date,id,title,link,piece,room,surface,price,curr' at line 1")
+2018-04-02 14:52:54,323 :: DEBUG :: POST http://127.0.0.1:51468/session/d4c11fb752c5d227ed33ac3d16909a95/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "d4c11fb752c5d227ed33ac3d16909a95"}
+2018-04-02 14:52:57,840 :: DEBUG :: Finished Request
+2018-04-02 14:52:57,843 :: DEBUG :: GET http://127.0.0.1:51468/session/d4c11fb752c5d227ed33ac3d16909a95/source {"sessionId": "d4c11fb752c5d227ed33ac3d16909a95"}
+2018-04-02 14:52:58,064 :: DEBUG :: Finished Request
+2018-04-02 14:53:09,905 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO `Annonce` (creation_date,id,title,link,piece,room,surface,price,curr' at line 1")
+2018-04-02 14:53:09,907 :: DEBUG :: POST http://127.0.0.1:51468/session/d4c11fb752c5d227ed33ac3d16909a95/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "d4c11fb752c5d227ed33ac3d16909a95"}
+2018-04-02 14:53:12,214 :: DEBUG :: Finished Request
+2018-04-02 14:53:12,216 :: DEBUG :: GET http://127.0.0.1:51468/session/d4c11fb752c5d227ed33ac3d16909a95/source {"sessionId": "d4c11fb752c5d227ed33ac3d16909a95"}
+2018-04-02 14:53:12,322 :: DEBUG :: Finished Request
+2018-04-02 14:53:54,396 :: DEBUG :: POST http://127.0.0.1:52318/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:53:55,205 :: DEBUG :: Finished Request
+2018-04-02 14:53:55,209 :: DEBUG :: POST http://127.0.0.1:52318/session/b82b5303e405ff16bb1f95526fbefc1d/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "b82b5303e405ff16bb1f95526fbefc1d"}
+2018-04-02 14:54:01,724 :: DEBUG :: Finished Request
+2018-04-02 14:54:01,727 :: DEBUG :: GET http://127.0.0.1:52318/session/b82b5303e405ff16bb1f95526fbefc1d/source {"sessionId": "b82b5303e405ff16bb1f95526fbefc1d"}
+2018-04-02 14:54:01,841 :: DEBUG :: Finished Request
+2018-04-02 14:54:04,962 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 14:57:49,906 :: DEBUG :: POST http://127.0.0.1:53023/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 14:57:50,918 :: DEBUG :: Finished Request
+2018-04-02 14:57:50,922 :: DEBUG :: POST http://127.0.0.1:53023/session/aa99c08dd5e54a1814824efba200bbc4/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "aa99c08dd5e54a1814824efba200bbc4"}
+2018-04-02 14:57:56,864 :: DEBUG :: Finished Request
+2018-04-02 14:57:56,867 :: DEBUG :: GET http://127.0.0.1:53023/session/aa99c08dd5e54a1814824efba200bbc4/source {"sessionId": "aa99c08dd5e54a1814824efba200bbc4"}
+2018-04-02 14:57:57,010 :: DEBUG :: Finished Request
+2018-04-02 14:58:01,963 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 15:00:51,981 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1
+(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'INSERT INTO `Annonce` (creation_date,id,title,link,piece,room,surface,price,curr' at line 1")
+2018-04-02 19:32:12,050 :: DEBUG :: POST http://127.0.0.1:55516/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 19:32:12,946 :: DEBUG :: Finished Request
+2018-04-02 19:32:12,950 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:19,552 :: DEBUG :: Finished Request
+2018-04-02 19:32:19,556 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:19,658 :: DEBUG :: Finished Request
+2018-04-02 19:32:23,150 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 19:32:24,787 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:27,659 :: DEBUG :: Finished Request
+2018-04-02 19:32:27,662 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:27,867 :: DEBUG :: Finished Request
+2018-04-02 19:32:32,645 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+'str' object has no attribute 'dumps'
+2018-04-02 19:32:32,647 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:34,837 :: DEBUG :: Finished Request
+2018-04-02 19:32:34,839 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:35,032 :: DEBUG :: Finished Request
+2018-04-02 19:32:39,110 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3
+'str' object has no attribute 'dumps'
+2018-04-02 19:32:39,113 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:41,037 :: DEBUG :: Finished Request
+2018-04-02 19:32:41,039 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:41,195 :: DEBUG :: Finished Request
+2018-04-02 19:32:46,660 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4
+'str' object has no attribute 'dumps'
+2018-04-02 19:32:46,667 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:49,169 :: DEBUG :: Finished Request
+2018-04-02 19:32:49,172 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:49,324 :: DEBUG :: Finished Request
+2018-04-02 19:32:53,528 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5
+'str' object has no attribute 'dumps'
+2018-04-02 19:32:53,535 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:55,885 :: DEBUG :: Finished Request
+2018-04-02 19:32:55,889 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:32:56,121 :: DEBUG :: Finished Request
+2018-04-02 19:33:00,905 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6
+'str' object has no attribute 'dumps'
+2018-04-02 19:33:00,907 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:04,904 :: DEBUG :: Finished Request
+2018-04-02 19:33:04,907 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:05,060 :: DEBUG :: Finished Request
+2018-04-02 19:33:10,616 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7
+'str' object has no attribute 'dumps'
+2018-04-02 19:33:10,620 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:12,783 :: DEBUG :: Finished Request
+2018-04-02 19:33:12,786 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:13,021 :: DEBUG :: Finished Request
+2018-04-02 19:33:20,952 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8
+'str' object has no attribute 'dumps'
+2018-04-02 19:33:20,956 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:26,550 :: DEBUG :: Finished Request
+2018-04-02 19:33:26,553 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:26,680 :: DEBUG :: Finished Request
+2018-04-02 19:33:31,967 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9
+'str' object has no attribute 'dumps'
+2018-04-02 19:33:31,972 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:37,718 :: DEBUG :: Finished Request
+2018-04-02 19:33:37,722 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:38,154 :: DEBUG :: Finished Request
+2018-04-02 19:33:44,818 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10
+'str' object has no attribute 'dumps'
+2018-04-02 19:33:44,820 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:47,960 :: DEBUG :: Finished Request
+2018-04-02 19:33:47,965 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:48,196 :: DEBUG :: Finished Request
+2018-04-02 19:33:53,366 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11
+'str' object has no attribute 'dumps'
+2018-04-02 19:33:53,392 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:55,478 :: DEBUG :: Finished Request
+2018-04-02 19:33:55,480 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:33:55,663 :: DEBUG :: Finished Request
+2018-04-02 19:34:01,130 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:01,133 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:03,582 :: DEBUG :: Finished Request
+2018-04-02 19:34:03,585 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:03,739 :: DEBUG :: Finished Request
+2018-04-02 19:34:09,062 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:09,064 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:11,616 :: DEBUG :: Finished Request
+2018-04-02 19:34:11,619 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:11,809 :: DEBUG :: Finished Request
+2018-04-02 19:34:17,139 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:17,147 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:20,928 :: DEBUG :: Finished Request
+2018-04-02 19:34:20,931 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:21,288 :: DEBUG :: Finished Request
+2018-04-02 19:34:26,768 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:26,771 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:30,172 :: DEBUG :: Finished Request
+2018-04-02 19:34:30,175 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:30,412 :: DEBUG :: Finished Request
+2018-04-02 19:34:35,696 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:35,698 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:40,457 :: DEBUG :: Finished Request
+2018-04-02 19:34:40,460 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:40,611 :: DEBUG :: Finished Request
+2018-04-02 19:34:44,979 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:44,981 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:46,887 :: DEBUG :: Finished Request
+2018-04-02 19:34:46,890 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:47,070 :: DEBUG :: Finished Request
+2018-04-02 19:34:51,325 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:51,327 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:54,640 :: DEBUG :: Finished Request
+2018-04-02 19:34:54,642 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:34:54,808 :: DEBUG :: Finished Request
+2018-04-02 19:34:58,730 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19
+'str' object has no attribute 'dumps'
+2018-04-02 19:34:58,733 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:01,764 :: DEBUG :: Finished Request
+2018-04-02 19:35:01,767 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:01,895 :: DEBUG :: Finished Request
+2018-04-02 19:35:06,199 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:06,204 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:09,544 :: DEBUG :: Finished Request
+2018-04-02 19:35:09,546 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:10,155 :: DEBUG :: Finished Request
+2018-04-02 19:35:15,094 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:15,096 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:17,397 :: DEBUG :: Finished Request
+2018-04-02 19:35:17,400 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:17,530 :: DEBUG :: Finished Request
+2018-04-02 19:35:22,155 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:22,157 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:24,091 :: DEBUG :: Finished Request
+2018-04-02 19:35:24,094 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:24,241 :: DEBUG :: Finished Request
+2018-04-02 19:35:28,288 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:28,290 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:30,515 :: DEBUG :: Finished Request
+2018-04-02 19:35:30,517 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:30,668 :: DEBUG :: Finished Request
+2018-04-02 19:35:35,024 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:35,026 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:36,770 :: DEBUG :: Finished Request
+2018-04-02 19:35:36,773 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:36,936 :: DEBUG :: Finished Request
+2018-04-02 19:35:41,795 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:41,800 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:43,930 :: DEBUG :: Finished Request
+2018-04-02 19:35:43,934 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:44,109 :: DEBUG :: Finished Request
+2018-04-02 19:35:49,783 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:49,784 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:52,662 :: DEBUG :: Finished Request
+2018-04-02 19:35:52,665 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:52,786 :: DEBUG :: Finished Request
+2018-04-02 19:35:56,979 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27
+'str' object has no attribute 'dumps'
+2018-04-02 19:35:56,991 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:58,713 :: DEBUG :: Finished Request
+2018-04-02 19:35:58,716 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:35:59,180 :: DEBUG :: Finished Request
+2018-04-02 19:36:03,779 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28
+'str' object has no attribute 'dumps'
+2018-04-02 19:36:03,783 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:05,683 :: DEBUG :: Finished Request
+2018-04-02 19:36:05,685 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:06,175 :: DEBUG :: Finished Request
+2018-04-02 19:36:09,609 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29
+'str' object has no attribute 'dumps'
+2018-04-02 19:36:09,611 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:14,179 :: DEBUG :: Finished Request
+2018-04-02 19:36:14,182 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:14,379 :: DEBUG :: Finished Request
+2018-04-02 19:36:17,868 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30
+'str' object has no attribute 'dumps'
+2018-04-02 19:36:17,870 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:19,455 :: DEBUG :: Finished Request
+2018-04-02 19:36:19,457 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:19,571 :: DEBUG :: Finished Request
+2018-04-02 19:36:22,762 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31
+'str' object has no attribute 'dumps'
+2018-04-02 19:36:22,764 :: DEBUG :: POST http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32", "sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:24,860 :: DEBUG :: Finished Request
+2018-04-02 19:36:24,862 :: DEBUG :: GET http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/source {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:25,112 :: DEBUG :: Finished Request
+2018-04-02 19:36:27,362 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32
+'str' object has no attribute 'dumps'
+2018-04-02 19:36:27,364 :: DEBUG :: DELETE http://127.0.0.1:55516/session/e30f3282d0af5774a3c60cfd7d9cbc40/window {"sessionId": "e30f3282d0af5774a3c60cfd7d9cbc40"}
+2018-04-02 19:36:27,557 :: DEBUG :: Finished Request
+2018-04-02 19:38:36,226 :: DEBUG :: POST http://127.0.0.1:56428/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2018-04-02 19:38:37,089 :: DEBUG :: Finished Request
+2018-04-02 19:38:37,093 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=1", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:38:50,127 :: DEBUG :: Finished Request
+2018-04-02 19:38:50,130 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:38:50,241 :: DEBUG :: Finished Request
+2018-04-02 19:38:53,687 :: DEBUG :: We got 629 annonces on 32 pages
+2018-04-02 19:38:55,357 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:00,773 :: DEBUG :: Finished Request
+2018-04-02 19:39:00,776 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:01,005 :: DEBUG :: Finished Request
+2018-04-02 19:39:05,380 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=2
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:05,382 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:07,794 :: DEBUG :: Finished Request
+2018-04-02 19:39:07,797 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:07,982 :: DEBUG :: Finished Request
+2018-04-02 19:39:11,855 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=3
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:11,858 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:16,711 :: DEBUG :: Finished Request
+2018-04-02 19:39:16,713 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:16,748 :: DEBUG :: Finished Request
+2018-04-02 19:39:16,823 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=4
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:16,825 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:19,260 :: DEBUG :: Finished Request
+2018-04-02 19:39:19,262 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:19,315 :: DEBUG :: Finished Request
+2018-04-02 19:39:19,392 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=5
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:19,395 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:22,334 :: DEBUG :: Finished Request
+2018-04-02 19:39:22,336 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:22,439 :: DEBUG :: Finished Request
+2018-04-02 19:39:22,510 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=6
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:22,512 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:23,734 :: DEBUG :: Finished Request
+2018-04-02 19:39:23,737 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:23,825 :: DEBUG :: Finished Request
+2018-04-02 19:39:24,451 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=7
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:24,453 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:28,872 :: DEBUG :: Finished Request
+2018-04-02 19:39:28,875 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:28,915 :: DEBUG :: Finished Request
+2018-04-02 19:39:28,997 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=8
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:28,999 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:31,443 :: DEBUG :: Finished Request
+2018-04-02 19:39:31,445 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:31,561 :: DEBUG :: Finished Request
+2018-04-02 19:39:31,635 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=9
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:31,636 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:37,160 :: DEBUG :: Finished Request
+2018-04-02 19:39:37,163 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:37,192 :: DEBUG :: Finished Request
+2018-04-02 19:39:37,269 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=10
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:37,273 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:40,016 :: DEBUG :: Finished Request
+2018-04-02 19:39:40,018 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:40,060 :: DEBUG :: Finished Request
+2018-04-02 19:39:40,134 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=11
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:40,135 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:42,714 :: DEBUG :: Finished Request
+2018-04-02 19:39:42,717 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:42,756 :: DEBUG :: Finished Request
+2018-04-02 19:39:42,838 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=12
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:42,840 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:45,403 :: DEBUG :: Finished Request
+2018-04-02 19:39:45,405 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:45,459 :: DEBUG :: Finished Request
+2018-04-02 19:39:45,534 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=13
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:45,537 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:48,035 :: DEBUG :: Finished Request
+2018-04-02 19:39:48,037 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:48,078 :: DEBUG :: Finished Request
+2018-04-02 19:39:48,156 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=14
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:48,158 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:51,054 :: DEBUG :: Finished Request
+2018-04-02 19:39:51,056 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:51,103 :: DEBUG :: Finished Request
+2018-04-02 19:39:51,183 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=15
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:51,184 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:53,584 :: DEBUG :: Finished Request
+2018-04-02 19:39:53,586 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:53,615 :: DEBUG :: Finished Request
+2018-04-02 19:39:53,704 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=16
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:53,706 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:55,887 :: DEBUG :: Finished Request
+2018-04-02 19:39:55,889 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:55,922 :: DEBUG :: Finished Request
+2018-04-02 19:39:56,002 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=17
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:56,004 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:58,894 :: DEBUG :: Finished Request
+2018-04-02 19:39:58,897 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:39:58,929 :: DEBUG :: Finished Request
+2018-04-02 19:39:59,008 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=18
+'str' object has no attribute 'dumps'
+2018-04-02 19:39:59,010 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:01,852 :: DEBUG :: Finished Request
+2018-04-02 19:40:01,855 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:01,959 :: DEBUG :: Finished Request
+2018-04-02 19:40:02,597 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=19
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:02,599 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:10,493 :: DEBUG :: Finished Request
+2018-04-02 19:40:10,495 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:10,526 :: DEBUG :: Finished Request
+2018-04-02 19:40:10,605 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=20
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:10,607 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:13,425 :: DEBUG :: Finished Request
+2018-04-02 19:40:13,427 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:13,461 :: DEBUG :: Finished Request
+2018-04-02 19:40:13,542 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=21
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:13,545 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:15,882 :: DEBUG :: Finished Request
+2018-04-02 19:40:15,885 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:15,929 :: DEBUG :: Finished Request
+2018-04-02 19:40:16,021 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=22
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:16,023 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:18,452 :: DEBUG :: Finished Request
+2018-04-02 19:40:18,455 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:18,482 :: DEBUG :: Finished Request
+2018-04-02 19:40:18,563 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=23
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:18,567 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:21,196 :: DEBUG :: Finished Request
+2018-04-02 19:40:21,198 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:21,240 :: DEBUG :: Finished Request
+2018-04-02 19:40:21,314 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=24
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:21,317 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:25,463 :: DEBUG :: Finished Request
+2018-04-02 19:40:25,465 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:25,505 :: DEBUG :: Finished Request
+2018-04-02 19:40:25,589 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=25
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:25,591 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:27,939 :: DEBUG :: Finished Request
+2018-04-02 19:40:27,941 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:27,985 :: DEBUG :: Finished Request
+2018-04-02 19:40:28,081 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=26
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:28,084 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:36,972 :: DEBUG :: Finished Request
+2018-04-02 19:40:36,975 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:37,006 :: DEBUG :: Finished Request
+2018-04-02 19:40:37,094 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=27
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:37,096 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:43,146 :: DEBUG :: Finished Request
+2018-04-02 19:40:43,148 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:43,172 :: DEBUG :: Finished Request
+2018-04-02 19:40:43,238 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=28
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:43,240 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:45,525 :: DEBUG :: Finished Request
+2018-04-02 19:40:45,529 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:45,568 :: DEBUG :: Finished Request
+2018-04-02 19:40:45,649 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=29
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:45,651 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:48,068 :: DEBUG :: Finished Request
+2018-04-02 19:40:48,072 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:48,116 :: DEBUG :: Finished Request
+2018-04-02 19:40:48,202 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=30
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:48,204 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:50,686 :: DEBUG :: Finished Request
+2018-04-02 19:40:50,688 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:50,721 :: DEBUG :: Finished Request
+2018-04-02 19:40:50,801 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=31
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:50,803 :: DEBUG :: POST http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/url {"url": "http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32", "sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:53,179 :: DEBUG :: Finished Request
+2018-04-02 19:40:53,181 :: DEBUG :: GET http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/source {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:53,214 :: DEBUG :: Finished Request
+2018-04-02 19:40:53,302 :: ERROR :: Error happens on the page http://www.seloger.com/list.htm?types=1&projects=2&natures=1,2,4&places=[{ci:780646}]&qsVersion=1.0&engine-version=new&LISTING-LISTpg=32
+'str' object has no attribute 'dumps'
+2018-04-02 19:40:53,305 :: DEBUG :: DELETE http://127.0.0.1:56428/session/cdb6fef85c320594150d532295366a7e/window {"sessionId": "cdb6fef85c320594150d532295366a7e"}
+2018-04-02 19:40:53,409 :: DEBUG :: Finished Request

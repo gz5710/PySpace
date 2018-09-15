@@ -34,20 +34,20 @@ bye = f'[{startWord}] : 小哲很高兴与您交流，希望下次再见'
 def forward_message(msg):     
     if msg.text.startswith(startWord):
         # print(f'[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [Received Message] {msg.text}')
-        white_list.append(msg.member)
+        white_list.append(msg.sender.name)
         print(f"[{msg.sender.name}] joining the chat")
         return welcome
     elif msg.text.startswith(endWord):
-        white_list.remove(msg.member)
+        white_list.remove(msg.sender.name)
         print(f"[{msg.sender.name}] leaving the chat")
         return bye
     else:
         try:
-            b=white_list.index(msg.member)
+            b=white_list.index(msg.sender.name)
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [Received Message] {msg.text}")
             return auto_reply(msg.text)
         except ValueError:
-            print(f'The user[{msg.sender.name}] is not in the white list')
+            print(f'The user[{msg.sender.name}] is not in the white list[{white_list}]')
             return ''
         
 

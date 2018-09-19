@@ -27,27 +27,35 @@ white_list = []
 # Configs
 startWord = '小哲同学'
 endWord = '再见'
-welcome = f'[{startWord}] : 终于等到您翻牌子了，我是小哲\n\n[ 结束对话时，请输入“{endWord}” ]'
-bye = f'[{startWord}] : 小哲很高兴与您交流，希望下次再见'
+welcome = f'[{startWord}] : 终于等到您翻牌子了，我是小哲\n\n[ 如想结束对话，请输入“{endWord}” ]'
+bye = f'[{startWord}] : 小哲很高兴与您交流，希望下次再见！'
 
 @bot.register()
 def forward_message(msg):     
     if msg.text.startswith(startWord):
         # print(f'[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [Received Message] {msg.text}')
         white_list.append(msg.sender.name)
-        print(f"[{msg.sender.name}] joining the chat")
-        return welcome
+        print(f"[{msg.sender.name}] joining the chat {white_list}")
+        if msg.text == startWord:
+            return welcome
+        else:
+            return auto_reply(msg.text)
     elif msg.text.startswith(endWord):
         white_list.remove(msg.sender.name)
-        print(f"[{msg.sender.name}] leaving the chat")
+        print(f"[{msg.sender.name}] leaving the chat {white_list}")
         return bye
     else:
         try:
             b=white_list.index(msg.sender.name)
-            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [Received Message] {msg.text}")
-            return auto_reply(msg.text)
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] [Received Message] {msg.sender.name}: {msg.text}")
+            res = auto_reply(msg.text)
+            if res == endWord:
+                white_list.remove(msg.sender.name)
+                print(f"[{msg.sender.name}] leaving the chat {white_list}")
+            else:
+                return res
         except ValueError:
-            print(f'The user[{msg.sender.name}] is not in the white list[{white_list}]')
+            print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] The user[{msg.sender.name}] is not in the white list {white_list}")
             return ''
         
 
